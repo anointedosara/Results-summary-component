@@ -1,0 +1,30 @@
+export const data = [
+  {
+    category: "Reaction",
+    score: 80,
+    icon: "icon-reaction.svg",
+    color: "hsl(0, 100%, 67%)",
+    bg: "hsla(0, 100%, 67%, 0.1)",
+  },
+  {
+    category: "Memory",
+    score: 92,
+    icon: "icon-memory.svg",
+    color: "hsl(39, 100%, 56%)",
+    bg: "hsla(39, 100%, 56%, 0.1)",
+  },
+  {
+    category: "Verbal",
+    score: 61,
+    icon: "icon-verbal.svg",
+    color: "hsl(166, 100%, 37%)",
+    bg: "hsla(166, 100%, 37%, 0.1)",
+  },
+  {
+    category: "Visual",
+    score: 72,
+    icon: "icon-visual.svg",
+    color: "hsl(234, 85%, 45%)",
+    bg: "hsla(234, 85%, 45%, 0.1)",
+  },
+];
