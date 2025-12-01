@@ -1,11 +1,11 @@
 "use client";
 import { data } from "@/data";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 function Summary() {
-  const summaryData = data;
+  const [summaryData, setSummaryData] = useState(data)
   return (
     <Wrapper>
       <h1>Summary</h1>
