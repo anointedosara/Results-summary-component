@@ -30,7 +30,7 @@ function Summary() {
 }
 
 const Wrapper = styled.div`
-  padding: 40px 30px;
+  padding: 30px;
   width: 50%;
   h1 {
     font-size: 18px;
